@@ -1,10 +1,10 @@
 {
   "name": "mongo_homework",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,14 @@
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "mongoose": "^5.1.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulk-gh/MongoScraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulk-gh/MongoScraper/issues"
+  },
+  "homepage": "https://github.com/rahulk-gh/MongoScraper#readme",
+  "description": ""
 }

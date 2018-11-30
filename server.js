@@ -18,7 +18,7 @@ var app = express();
 var routes = require("./routes");
 
 // Parse request body as JSON
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 // Make public a static folder
 app.use(express.static("public"));
